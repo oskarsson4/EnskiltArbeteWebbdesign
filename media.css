@@ -1,13 +1,13 @@
 @media only screen and (max-width: 1050px){
     
-    .startsidaSektion h2{
+    .startsidaSektion h3{
         font-size: 40px;
     }
 
 }
 @media only screen and (max-width: 650px){
 
-    .startsidaSektion h1{
+    .startsidaSektion h2{
         font-size: 30px;
     }
 
@@ -76,7 +76,7 @@
     }
       
     .meny li{
-        position:static;
+        position: static;
         top:0;
         right:0;
         margin:0;
