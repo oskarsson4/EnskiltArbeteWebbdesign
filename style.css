@@ -161,7 +161,7 @@ label{
 
 /*---------Startsida Innehåll----------*/
 .startsidaSektion{
-    background-image: url("/image/crop-man-running-kick-ball_23-2147817390.jpg");
+    background-image: url("./image/crop-man-running-kick-ball_23-2147817390.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
