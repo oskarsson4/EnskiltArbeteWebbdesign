@@ -4,7 +4,7 @@ html{
 }
   
 body{
-    background-color:rgb(51, 51, 51);
+    background-color:#333333;
     color: #F2F2F2;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
@@ -34,12 +34,12 @@ body{
 
 button{
     background-color: #F2F2F2;
-    color: rgb(51, 51, 51);
+    color:#333333;
 }
   
 /*------Header------*/
 header{
-    background-color: rgb(51, 51, 51);
+    background-color: #333333;
     color: #F2F2F2;
     margin-top: -20px;
     grid-row: 1;
@@ -78,7 +78,7 @@ header img{
 }
 /*------Meny--------*/
 nav {
-    background-color:  rgb(51, 51, 51);
+    background-color:  #333333;
     overflow: hidden;
     grid-row:3;
     
@@ -100,7 +100,7 @@ nav a {
 /*----Fixed meny-------*/
 .meny {
     padding: 10px 16px;
-    background:  rgb(51, 51, 51);
+    background:  #333333;
     color: #f1f1f1;
     
 }
@@ -145,7 +145,7 @@ nav a {
 }
 #hambLinks a:hover{
     background-color: rgba(255, 255, 255, 0.726);
-    color: black;
+    color: #0F0F0F;
 }
 label{
     margin: 0 40px 0 0 ;
@@ -169,12 +169,12 @@ label{
     grid-row: 4;
 }
 
-.startsidaSektion h1{
+.startsidaSektion h2{
     font-size: 40px;
     padding-bottom: 30px;
 }
 
-.startsidaSektion h2{
+.startsidaSektion h3{
     font-size: 60px;
     padding-bottom: 30px;   
 }
@@ -184,24 +184,24 @@ button{
 
 button a{
     text-decoration: none;
-    color: black;
+    color: #0F0F0F;
 }
 button a:visited{
-    color: black;
+    color: #0F0F0F;
 }
 
 /*--------Köpa Biljetter Sektion-----------*/
 .köpBiljetterSektion{
-    background-color: black;
+    background-color: #0F0F0F;
     grid-row: 5;
 }
 
-.köpBiljetterSektion h1 {
+.köpBiljetterSektion h2 {
     font-size: 60px;
     padding: 140px 0px 50px 0px;
 }
 
-.köpBiljetterSektion h2{
+.köpBiljetterSektion h3{
     font-size:40px;
     padding-bottom: 50px;
 }
@@ -222,12 +222,12 @@ button a:visited{
     padding-bottom: 100px;
     grid-row: 6;
 }
-.köpKläderSektion h1{
+.köpKläderSektion h2{
     font-size:60px;
     padding: 100px 0px 30px 0px;
 }
 
-.köpKläderSektion h2, .kontaktSektion h2{
+.köpKläderSektion h3, .kontaktSektion h3{
     font-size:40px;
     padding: 30px 0px 30px 0px;
 }
@@ -243,14 +243,14 @@ button a:visited{
 
 /*-----Om Oss Sektion-----*/
 .omOssSektion{
-    background-color: black;
+    background-color: #0F0F0F;
     color: #F2F2F2;
     height: 1000px;
     padding: 0px 250px 0px 250px;
     grid-row: 7;
 }
 
-.omOssSektion h1{
+.omOssSektion h2{
     font-size:60px;
     padding: 150px 0px 100px 0px;
 }
@@ -272,7 +272,7 @@ button a:visited{
     grid-row: 8;
 }
 
-.kontaktSektion h1{
+.kontaktSektion h2{
     padding: 50px 0px 40px 0px;
     font-size:60px;
 }
