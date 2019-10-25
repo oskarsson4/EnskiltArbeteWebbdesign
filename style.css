@@ -22,7 +22,7 @@ body{
 /*------Grids-----*/
 .huvudGrid{
     display: grid;
-    grid-template-columns: repeat(auto, minmax(20em, 1fr));
+    grid-template-columns: repeat(20em, 1fr);
 }
 
 .köpBiljetterGrid, .köpKläderGrid1, .köpKläderGrid2, .kontaktSektionGrid{
