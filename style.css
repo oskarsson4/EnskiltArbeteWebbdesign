@@ -1,0 +1,294 @@
+html{
+    scroll-behavior: smooth;
+    
+}
+  
+body{
+    background-color:rgb(51, 51, 51);
+    color: #F2F2F2;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.köpBiljetterSektion, .köpKläderSektion, .omOssSektion, .kontaktSektion, footer{
+    text-align: center;
+}
+  
+.köpKläderGrid1 img, .köpKläderGrid2 img, .kontaktSektion img{
+    width: 70%;
+}
+
+/*------Grids-----*/
+.huvudGrid{
+    display: grid;
+    grid-template-columns: repeat(auto, minmax(20em, 1fr));
+}
+
+.köpBiljetterGrid, .köpKläderGrid1, .köpKläderGrid2, .kontaktSektionGrid{
+
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+}
+
+button{
+    background-color: #F2F2F2;
+    color: rgb(51, 51, 51);
+}
+  
+/*------Header------*/
+header{
+    background-color: rgb(51, 51, 51);
+    color: #F2F2F2;
+    margin-top: -20px;
+    grid-row: 1;
+}
+  
+header button{
+    position: absolute;
+    top: 90px;
+    right: 50px;
+    font-size: 20px;
+}
+  
+header ul{
+    position: absolute;
+    top: 95px;
+    right: 200px;
+    font-size: 20px;
+}
+  
+header ul li{
+    list-style-type: none;
+}
+  
+header h1 {
+    font-size: 30px;
+    margin-bottom: -3px;
+    padding: 20px 0px 0px 40px;
+}
+  
+header img{
+    padding-left: 25px;
+}
+  
+.logo{
+    padding-bottom: 10px;
+}
+/*------Meny--------*/
+nav {
+    background-color:  rgb(51, 51, 51);
+    overflow: hidden;
+    grid-row:3;
+    
+}
+
+nav ul li{
+    display: inline;
+}
+  
+nav a {
+    float: left;
+    color: #F2F2F2;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+/*----Fixed meny-------*/
+.meny {
+    padding: 10px 16px;
+    background:  rgb(51, 51, 51);
+    color: #f1f1f1;
+    
+}
+  
+.huvudGrid {
+    padding: 5px;
+}
+  
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+.sticky + .huvudGrid {
+    padding-top: 102px;
+}
+
+/* ------ Mobile Menu -----*/
+
+#hamburgerMenu{
+    grid-row: 2;
+    padding: 0px;
+    margin-top: -93px;
+    text-align: right;
+    height: 10px;
+    line-height: 70px;
+    padding-top: 10px;
+}
+#hambLinks{
+    margin: 0 30px 0 0;
+    display: none;
+}
+#hambLinks a{
+    margin-top: 30px;
+    color: #F2F2F2;
+    clear: right;
+    text-decoration: none;
+    margin: 0 0px;
+    line-height: 70px;
+    background-color: rgba(0, 0, 0, 0.377);
+}
+#hambLinks a:hover{
+    background-color: rgba(255, 255, 255, 0.726);
+    color: black;
+}
+label{
+    margin: 0 40px 0 0 ;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: left;
+}
+#toggle{
+    display: none;
+}
+
+/*---------Startsida Innehåll----------*/
+.startsidaSektion{
+    background-image: url("/image/crop-man-running-kick-ball_23-2147817390.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    padding: 300px 0px 0px 100px;
+    grid-row: 4;
+}
+
+.startsidaSektion h1{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.startsidaSektion h2{
+    font-size: 60px;
+    padding-bottom: 30px;   
+}
+button{
+    padding: 13px 28px;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}
+button a:visited{
+    color: black;
+}
+
+/*--------Köpa Biljetter Sektion-----------*/
+.köpBiljetterSektion{
+    background-color: black;
+    grid-row: 5;
+}
+
+.köpBiljetterSektion h1 {
+    font-size: 60px;
+    padding: 140px 0px 50px 0px;
+}
+
+.köpBiljetterSektion h2{
+    font-size:40px;
+    padding-bottom: 50px;
+}
+.köpBiljetterSektion p{
+    font-size:35px;
+}
+
+.köpBiljetterSektion article{
+    color: #F2F2F2;
+    height: 500px;
+    padding: 100px 0px 100px 0px;
+    border: solid #F2F2F2 3px;
+    margin: 100px;
+}
+
+/*-------Köpa KLäder Sektion--------*/
+.köpKläderSektion{
+    padding-bottom: 100px;
+    grid-row: 6;
+}
+.köpKläderSektion h1{
+    font-size:60px;
+    padding: 100px 0px 30px 0px;
+}
+
+.köpKläderSektion h2, .kontaktSektion h2{
+    font-size:40px;
+    padding: 30px 0px 30px 0px;
+}
+
+.köpKläderSektion p{
+    font-size:30px;
+    padding: 50px 0px 30px 0px;
+}
+
+.köpKläderGrid2{
+    padding-top: 120px;
+}
+
+/*-----Om Oss Sektion-----*/
+.omOssSektion{
+    background-color: black;
+    color: #F2F2F2;
+    height: 1000px;
+    padding: 0px 250px 0px 250px;
+    grid-row: 7;
+}
+
+.omOssSektion h1{
+    font-size:60px;
+    padding: 150px 0px 100px 0px;
+}
+
+.omOssSektion p{
+    font-size: 20px;
+}
+
+
+/*-----Kontakt Sektion-------*/
+.kontaktSektion ul li{
+    list-style-type: none;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.kontaktSektion{
+    padding: 50px 0px 50px 0px;
+    grid-row: 8;
+}
+
+.kontaktSektion h1{
+    padding: 50px 0px 40px 0px;
+    font-size:60px;
+}
+
+/*---------Footer-------*/
+footer{
+    grid-row: 9;
+}
+
+ 
+
+
+
+
+
+
+
+
+

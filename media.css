@@ -1,0 +1,128 @@
+@media only screen and (max-width: 1050px){
+    
+    .startsidaSektion h2{
+        font-size: 40px;
+    }
+
+}
+@media only screen and (max-width: 650px){
+
+    .startsidaSektion h1{
+        font-size: 30px;
+    }
+
+    .startsidaSektion{
+        padding-left: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 610px){
+
+    header button{
+        position: absolute;
+        top: 120px;
+        right: 50px;
+        font-size: 20px;
+    }
+      
+    header ul{
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 450px){
+
+    .logo{
+        padding: 0px 0px 20px 80px; 
+
+    }
+      
+    header ul{
+        position: static;
+        font-size: 17px;
+        padding: 0px 0px 20px 50px;
+    }
+
+    header button{
+        position: static;
+        font-size: 20px;
+        margin-left: 90px;
+    }
+}
+
+@media only screen and (max-width: 1170px){
+
+    .omOssSektion{
+        padding: 10px;
+
+    }
+    .köpBiljetterSektion article{
+        margin: 0px;
+        border: none;
+    }
+
+
+}
+
+@media only screen and (max-width:700px){
+    
+    .meny{
+        margin:0;
+        float:none;
+        text-align:center;
+    }
+      
+    .navbar li{
+        position:none;
+        top:0;
+        right:0;
+        margin:0;
+        padding:0;
+        padding-right:10px;
+        padding-top:60px;
+        text-align:center;
+    }
+    
+    label{
+        display:block;
+        cursor:pointer;
+    }
+
+    #hambLinks{
+        margin-top:30px;
+        text-align:center;
+        width:100%;
+        display:none;
+    }
+    
+    #hambLinks a {
+        display:block;
+        border-bottom:1px solid rgb(185, 185, 185);
+    }
+    
+    #toggle:checked + #hambLinks{
+        display:block;
+    }
+    
+    .meny ul{
+        display:none;
+   }
+}
+
+@media only screen and (max-width: 400px){
+    
+    .huvudGrid{
+        padding: 0px;
+    }
+    .omOssSektion{
+        height: 1200px;
+    }
+}
+
+
+
+
+
