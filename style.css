@@ -35,6 +35,8 @@ body{
 button{
     background-color: #F2F2F2;
     color:#333333;
+    padding: 13px 28px;
+    font-size: 20px;
 }
   
 /*------Header------*/
@@ -49,7 +51,7 @@ header button{
     position: absolute;
     top: 90px;
     right: 50px;
-    font-size: 20px;
+    
 }
   
 header ul{
@@ -178,9 +180,7 @@ label{
     font-size: 60px;
     padding-bottom: 30px;   
 }
-button{
-    padding: 13px 28px;
-}
+
 
 button a{
     text-decoration: none;
