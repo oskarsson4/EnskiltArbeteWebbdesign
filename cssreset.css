@@ -23,31 +23,35 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+html{
+    scroll-behavior: smooth;
+    
+}
 body {
 	line-height: 1;
-	/*--*/background-color:#333333;
-	/*--*/color: #F2F2F2;
+	background-color:#333333;
+	color: #F2F2F2;
 }
 ul {
 	list-style: none;
 	
 }
 ul a{
-	/*--*/text-decoration: none;
-	/*--*/color: #F2F2F2;
+	text-decoration: none;
+	color: #F2F2F2;
 }
 ul a:visited{
-	/*--*/text-decoration: none;
-	/*--*/color: #F2F2F2;
+	text-decoration: none;
+	color: #F2F2F2;
 }
 button a{
-    /*--*/text-decoration: none;
-    /*--*/color: #333333;
+        text-decoration: none;
+        color: #333333;
     
 }
 button a:visited{
-	/*--*/text-decoration: none;
-    /*--*/color: #333333;
+	text-decoration: none;
+        color: #333333;
 }
 
 
